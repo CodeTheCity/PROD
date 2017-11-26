@@ -81,5 +81,5 @@ I've set up three functions:
 * update the CSV to mark which request have been submitted
 * some sort of chron job to run it
 
-##unlikely
+## unlikely to be done
 Adapt this to handle request for the same subject to multiple authorities (e.g. to all Scottish Local Authoritie)
