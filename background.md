@@ -17,3 +17,7 @@ Proper open data which is
 
 # What will we do with it
 
+Anyone can do anything they want with open data. This can include commercial and non-commercial uses. 
+
+But in our case, we want to try to set up some temporary hosting of the data until the city has a properly open data portal. 
+
