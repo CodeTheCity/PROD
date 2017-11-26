@@ -61,4 +61,25 @@ https://www.whatdotheyknow.com/new/aberdeen_city_council?title=EV%20Charging%20P
 
 ## What about selenium?
 
-To be added
+The selenium library allows automation of web functions. You can choose which browser to emulate. In this case I used Chrome.
+
+The code loads the site WhetDoTheyKnow.com and logs in. It uses credentials which I have stored in secrets.py (not published here). The latter contains two lines only: 
+userid = "xxxxxx"
+userpwd = "yyyyy" which correspond to your account. 
+
+I've set up three functions: 
+* log_in()
+* make_reqest()
+* Log_off () - not currently implemented
+
+## Still to be done
+* a function to read in requests from a CSV file
+* a loop mechanism to submit each request, calling the make_request() function - and up to a ceiling of, say, 5 per day
+* complete the log_off() function
+
+## Possible extras
+* update the CSV to mark which request have been submitted
+* some sort of chron job to run it
+
+##unlikely
+Adapt this to handle request for the same subject to multiple authorities (e.g. to all Scottish Local Authoritie)
