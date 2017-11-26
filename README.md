@@ -1,13 +1,24 @@
-# PROD
-Project at CTC11 - Persuasive Release of Open Data - building a case for the release of Open Data in Aberdeen. Exporing possibilities to automate requests to get the data, if we can't get a portal.
+# PROD (Persuasive Release of Open Data)
+A project at [CTC11](http://codethecity.org.uk)
 
-We will use the what do they know API to automate the requests: https://www.whatdotheyknow.com/help/api
+## What is it about?
 
-Some helpful hints here: https://www.mysociety.org/2016/12/19/alaveteli-for-campaigners-how-to-create-pre-written-requests-for-your-supporters/?refferer=mailnotify&uid=138 
+This project's purpose is building a case for the release of Open Data in Aberdeen. Additionally it explores the  possibilities to automate requests to get the data, if we can't get a portal provided by the Aberdeen City Council.
+See [here](http://aberdeen.theodi.org/news-blog/) for the sorry saga. 
 
-I have adapted this below. 
+This part covers the automation of requests to [WhatDoTheyKnow](http://whatdotheyknow.com) a site which makes easier, and allows tracking of, the submission of FOI requests. 
 
-It’s quite simple to create these yourself. Just build the URL up in steps:
+## Approach
+
+We will use the what do they know API to create requests on the fly: https://www.whatdotheyknow.com/help/api
+
+And there as some helpful hints (on which we based this) [here](https://www.mysociety.org/2016/12/19/alaveteli-for-campaigners-how-to-create-pre-written-requests-for-your-supporters/?refferer=mailnotify&uid=138 )
+
+I have adapted these instructions to those below. 
+
+But none of them have used selenium to automate the process which was my aim.
+
+It’s quite simple to create yourself. Just build the URL up in steps:
 
 The base URL https://www.whatdotheyknow.com/
 
