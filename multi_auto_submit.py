@@ -44,10 +44,10 @@ def url_encode(in_dict):
 	x = urlencode(in_dict)
 	return x
 
-title_text = 'School Catchment Boundary Data'
+title_text = 'Speeding in 20mph areas'
 preamble = 'Please provide '
-letter_text = 'a dataset of School Catchment Areas in Geo-json format'
-More_info = ' More info: https://tinyurl.com/ycysjqls'
+letter_text = "a list of the number of people fined for speeding in either mandatory (red) or recommended (green) 20mph in each zone of Aberdeen, monthly for the last 24 months in CSV format . "
+More_info = 'More info: https://tinyurl.com/ycysjqls' + "\n" + "George Smith"
 tag_text = 'ODIAberdeen CTC11'
 
 #main code starts here
