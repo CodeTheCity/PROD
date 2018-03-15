@@ -13,7 +13,7 @@ Proper open data which is
 * not a PDF, 
 * in a neutral, machine-readable format (e.g. CSV not Excel)
 * explicitly licensed for re-use using the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ ) 
-* meets at least 3 stars on the [five star open data shema[(http://5stardata.info/en/)
+* meets at least 3 stars on the [five star open data shema](http://5stardata.info/en/)
 
 # What will we do with it
 
